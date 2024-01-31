@@ -35,4 +35,9 @@ public class EmployeeController {
 	public List<Employee> getAllEmployees(){
 		return employeeService.getAllEmployees();
 	}
+
+	@GetMapping
+	public List<Employee> getAllEmployeesTest(){
+		return employeeService.getAllEmployees();
+	}
 }
